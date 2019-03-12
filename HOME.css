@@ -1,0 +1,43 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: #1abc9c;
+
+
+}
+
+
+.navigation
+{margin: 0px;
+text-align: center;
+width: 100%;
+padding: 0px;
+font-family: arial;
+}
+
+.navigation ul
+{
+
+  background: #37988e;
+  padding: 0px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  margin: auto;
+  width: 100%;
+}
+.navigation ul li
+{
+  float: left;
+}
+.navigation ul li: hover a{
+  color: #000;
+}
+
+.navigation ul li a{
+  display: block;
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
+}
